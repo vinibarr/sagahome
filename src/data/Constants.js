@@ -41,37 +41,37 @@ const DefaultConstants = {
                 description: 'electronicLocksDescription',
                 products: [
                     {
-                        name: 'electronicLocks1',
+                        name: 'Fechadura eletrônica 1',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'electronicLocks2',
+                        name: 'Fechadura eletrônica 2',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'electronicLocks3',
+                        name: 'Fechadura eletrônica 3',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'electronicLocks4',
+                        name: 'Fechadura eletrônica 4',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'electronicLocks5',
+                        name: 'Fechadura eletrônica 5',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'electronicLocks6',
+                        name: 'Fechadura eletrônica 6',
                         images: [
                             'assets/images/default.png'
                         ],
@@ -84,37 +84,37 @@ const DefaultConstants = {
                 description: 'electronicSafesDescription',
                 products: [
                     {
-                        name: 'electronicSafes1',
+                        name: 'Cofre eletrônico 1',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
-                        name: 'electronicSafes2',
+                        name: 'Cofre eletrônico 2',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
-                        name: 'electronicSafes3',
+                        name: 'Cofre eletrônico 3',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
-                        name: 'electronicSafes4',
+                        name: 'Cofre eletrônico 4',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
-                        name: 'electronicSafes5',
+                        name: 'Cofre eletrônico 5',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
-                        name: 'electronicSafes6',
+                        name: 'Cofre eletrônico 6',
                         images: [
                             'assets/images/default.png'
                         ],
@@ -127,37 +127,37 @@ const DefaultConstants = {
                 description: 'energySavingDescription',
                 products: [
                     {
-                        name: 'energySaving1',
+                        name: 'Economizador de energia 1',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'energySavingDescription',
                     }, {
-                        name: 'energySaving2',
+                        name: 'Economizador de energia 2',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'energySavingDescription',
                     }, {
-                        name: 'energySaving3',
+                        name: 'Economizador de energia 3',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'energySavingDescription',
                     }, {
-                        name: 'energySaving4',
+                        name: 'Economizador de energia 4',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'energySavingDescription',
                     }, {
-                        name: 'energySaving5',
+                        name: 'Economizador de energia 5',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'energySavingDescription',
                     }, {
-                        name: 'energySaving6',
+                        name: 'Economizador de energia 6',
                         images: [
                             'assets/images/default.png'
                         ],
@@ -170,37 +170,37 @@ const DefaultConstants = {
                 description: 'accessoriesDescription',
                 products: [
                     {
-                        name: 'accessories1',
+                        name: 'Acessório 1',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
-                        name: 'accessories2',
+                        name: 'Acessório 2',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
-                        name: 'accessories3',
+                        name: 'Acessório 3',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
-                        name: 'accessories4',
+                        name: 'Acessório 4',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
-                        name: 'accessories5',
+                        name: 'Acessório 5',
                         images: [
                             'assets/images/default.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
-                        name: 'accessories6',
+                        name: 'Acessório 6',
                         images: [
                             'assets/images/default.png'
                         ],
