@@ -1,0 +1,43 @@
+
+@import '../../styles/variables';
+
+.dialog-default {
+
+    .dialogactions-default {
+        padding: 16px 24px;
+    }
+
+    &.dialogactions-separate {
+        .dialogactions-default {
+            justify-content: space-between;
+        }
+    }
+
+
+    &.full-height {
+        height: calc(100% - 64px) !important;
+
+        .dialogform-default {
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 64px 1fr 72px;
+            grid-template-areas: 'dialog-title' 'dialog-content' 'dialog-actions';
+
+            .dialogtitle-default {
+                grid-area: dialog-title;
+            }
+        
+            .dialogcontent-default {
+                grid-area: dialog-content;
+                overflow: auto;
+            }
+        
+            .dialogactions-default {
+                grid-area: dialog-actions;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+        }
+    }
+}

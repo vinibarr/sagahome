@@ -1,0 +1,113 @@
+
+@import '../../../styles/variables';
+
+
+.grid-footer-website {
+    background-color: $website-footer-background-color;
+    padding: 40px #{$website-footer-padding-x};
+
+    .image-logo {
+        position: relative;
+        width: 120px;
+        animation: scale_in 0.4s;
+        box-sizing: border-box;
+    }
+
+    .text-footer {
+        color: $website-footer-color !important;
+        text-decoration: none;
+
+        &.text-developer {
+            transition: 0.2s;
+            color: $website-footer-developer-color!important;
+
+            &:hover {
+                color: $website-footer-developer-hover-color !important;
+            }
+        }
+    }
+
+    .grid-navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+
+        .text-navbar {
+            color: $website-navbar-link-color;
+            font-size: 15px;
+            transition: 0.2s;
+            cursor: pointer;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $website-navbar-link-hover-color !important;
+            }
+        }
+    }
+
+    .grid-socialmedia {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 12px;
+
+        .iconbutton-socialmedia {
+            color: $website-footer-socialmedia-color !important;
+            background-color: $website-footer-socialmedia-background-color !important;
+        }
+    }
+
+    .footer-divider {
+        margin: 40px 0px;
+        border-color: $website-footer-divider-color !important;
+    }
+}
+
+
+@media screen and (max-width: $screen-size-md) {
+    .grid-footer-website {
+        text-align: center;
+        padding: 40px calc(#{$website-footer-padding-x} / 2);
+
+        .grid-navbar {
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+    
+        .grid-socialmedia {
+            justify-content: center;
+        }
+
+        .text-copyright, .text-developed {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .text-developed {
+            margin-top: 16px;
+        }
+
+        .image-logo {
+            margin-bottom: 32px;
+        }
+    }
+}
+
+
+@media screen and (max-width: $screen-size-sm) {
+    .grid-footer-website {
+        .grid-navbar {
+            flex-direction: column;
+        }
+
+        .grid-socialmedia {
+            flex-wrap: wrap;
+        }
+
+        .text-contact {
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+
+@import '../../styles/variables';
+
+
+.backdrop-loading {
+    z-index: 9999;
+    background-color: $component-loading-default-background-color !important;
+    flex-direction: column;
+
+    .circular-progress {
+        font-size: 40px;
+        color: $component-loading-default-color !important;
+    }
+}
+

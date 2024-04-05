@@ -1,0 +1,117 @@
+
+@import '../../styles/variables';
+
+
+.container-website {
+    height: auto;
+
+    .grid-header-website {
+        grid-area: website-header;
+    }
+
+    .grid-content-website {
+        grid-area: website-content;
+        overflow: auto;
+        overflow-x: hidden !important;
+        position: relative;
+        margin-top: calc(#{$website-navbar-height} * -1);
+
+        .grid-content-section {
+            position: relative;
+            padding: #{$website-content-padding-y} #{$website-content-padding-x};
+
+            .wallpaper {
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: calc(100vh - #{$website-header-height});
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                flex-direction: column;
+
+                &.small {
+                    height: 40vh;
+                }
+
+                &::before {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    z-index: 98;
+                }
+
+                .wallpaper-title, .wallpaper-subtitle {
+                    position: relative;
+                    color: #fff;
+                    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+                    font-size: 32px;
+                    text-transform: uppercase;
+                    padding: 12px;
+                    z-index: 99;
+                    text-align: center;
+
+                    &.wallpaper-subtitle {
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            .section-title {
+                font-size: 28px;
+                width: 100%;
+                color: $component-text-primary-color;
+                font-weight: 600;
+                margin-bottom: 4px;
+                position: relative;
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $screen-size-lg) {
+    .container-website {
+        height: 100vh;
+        display: grid !important;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'website-header' 'website-content';
+        grid-template-rows: $website-header-height 1fr;
+
+        .grid-content-website {
+            margin-top: 0;
+
+            .grid-content-section {
+                padding: calc(#{$website-content-padding-y} / 2) 20px;
+
+                .wallpaper {
+                    &.small {
+                        height: 30vh;
+                    }
+
+                    .wallpaper-title {
+                        font-size: 28px;
+                    }
+    
+                    .wallpaper-subtitle {
+                        font-size: 16px;
+                    }
+                }
+
+                .section-title {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

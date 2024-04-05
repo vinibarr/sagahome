@@ -1,0 +1,123 @@
+@use "sass:color";
+
+
+// Responsive Dimensions
+$screen-size-xs: 0px;
+$screen-size-sm: 600px;
+$screen-size-md: 900px;
+$screen-size-lg: 1200px;
+$screen-size-xl: 1536px;
+
+
+// Colors
+$color-primary: #1f83bd;
+$color-secondary: #ff914d;
+
+$screen-background-color: #fafafa;
+
+$component-default-background-color-primary: $color-primary;
+$component-default-background-color-blue: #1976d2;
+$component-default-background-color-green: #43a047;
+$component-default-background-color-red: #d32f2f;
+$component-default-background-color-cyan: #0097a7;
+$component-default-background-color-grey: #e0e0e0;
+
+$component-alertmessage-severity-error-color: #e53935;
+$component-alertmessage-severity-info-color: #1976d2;
+$component-alertmessage-severity-success-color: #388e3c;
+$component-alertmessage-severity-warning-color: #ff8f00;
+$component-alertmessage-severity-timeout-color: #263238;
+
+$component-registrationstatus-background-color-green: #43a047;
+$component-registrationstatus-background-color-red: #d32f2f;
+$component-registrationstatus-background-color-grey: #bdbdbd;
+
+
+$component-text-primary-color: $color-primary;
+$component-text-default-color-1: #060608;
+$component-text-default-color-2: #5E6C84;
+$component-text-default-color-3: #9e9e9e;
+
+
+// Radius
+$component-default-border-radius: 2px;
+$component-textfield-default-border-radius: 2px;
+$component-selectfield-default-border-radius: 2px;
+$component-button-default-border-radius: 2px;
+
+
+// Box Shadow
+$component-default-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2);
+
+
+// Text Field
+$component-textfield-default-border-color: #969696;
+$component-textfield-label-default-color: #727272;
+$component-textfield-actived-default-border-color: color.adjust($color-primary, $alpha: -0.4);
+$component-textfield-actived-label-default-border-color: $color-primary;
+
+
+// Select Field
+$component-selectfield-default-border-color: #969696;
+$component-selectfield-label-default-color: #727272;
+$component-selectfield-actived-default-border-color: color.adjust($color-primary, $alpha: -0.4);
+$component-selectfield-actived-label-default-border-color: $color-primary;
+
+
+// Divider
+$component-divider-default-border-color: #e0e0e0;
+
+
+// Loading
+$component-loading-default-background-color: rgba(0, 0, 0, 0.8);
+$component-loading-default-color: #fff;
+
+
+// Tooltip
+$component-tooltip-default-background-color: #000;
+$component-tooltip-default-color: #fff;
+
+
+
+// Website - Header
+$website-header-height: 80px;
+$website-header-background-color: #fff;
+$website-header-box-shadow: none;
+$website-header-padding-x: 80px;
+$website-header-information-background-color: color.adjust($color-primary, $alpha: -0.9);
+$website-header-information-border-color: transparent;
+$website-header-information-color: $color-primary;
+$website-header-information-border-radius: 100%;
+
+
+// Website - Navbar
+$website-navbar-height: 60px;
+$website-navbar-background-color: #232426;
+$website-navbar-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2);
+$website-navbar-padding-x: 80px;
+
+$website-navbar-link-color: #fafafa;
+$website-navbar-link-hover-color: $color-secondary;
+$website-navbar-link-hover-background-color: color.adjust($color-secondary, $alpha: -0.92);
+$website-navbar-link-selected-border-color: $color-secondary;
+$website-navbar-link-selected-color: $color-secondary;
+$website-navbar-link-selected-background-color: color.adjust($color-secondary, $alpha: -0.88);
+
+
+
+// Website - Footer
+$website-footer-background-color: #232426;
+$website-footer-color: #fff;
+$website-footer-padding-x: 80px;
+$website-footer-contact-color: $color-secondary;
+$website-footer-socialmedia-background-color: color.adjust($color-secondary, $alpha: -0.2);
+$website-footer-socialmedia-color: #fff;
+$website-footer-divider-color: color.adjust($color-secondary, $alpha: -0.6);
+$website-footer-developer-color: color.adjust($color-secondary, $alpha: -0.2);
+$website-footer-developer-hover-color: $color-secondary;
+
+
+
+// Website - Content
+$website-content-padding-x: 80px;
+$website-content-padding-y: 80px;

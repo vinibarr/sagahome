@@ -1,0 +1,59 @@
+
+@import '../../../../styles/variables';
+
+
+#contact-section {
+    .contact-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        border-left: 2px solid $component-divider-default-border-color;
+        padding: 20px;
+
+        &:first-child {
+            border-left: unset;
+        }
+
+        .contact-item-icon {
+            font-size: 32px;
+            padding: 12px;
+            border-radius: $website-header-information-border-radius;
+            background-color: $website-header-information-background-color;
+            color: $website-header-information-color;
+            border: 1px solid $website-header-information-border-color;
+            margin-bottom: 20px;
+        }
+        
+        .contact-item-text {
+            font-size: 16px;
+            color: $component-text-default-color-1;
+            text-decoration: none;
+            transition: 0.2s;
+            cursor: pointer;
+
+            &:not(.disabled-hover):hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    iframe {
+        height: 400px;
+    }
+}
+
+
+@media screen and (max-width: $screen-size-lg) {
+    #contact-section {
+        .contact-item {
+            padding: 40px 20px;
+            border-left: unset;
+            border-bottom: 2px solid $component-divider-default-border-color;
+        }
+
+        .form-text {
+            text-align: center;
+        }
+    }
+}

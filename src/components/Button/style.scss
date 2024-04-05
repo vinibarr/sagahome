@@ -1,0 +1,24 @@
+
+@import '../../styles/variables';
+
+.button-default {
+    padding: 12px 32px !important;
+    border-radius: $component-default-border-radius !important;
+
+    &.color-primary {
+        color: #fff !important;
+        background-color: $color-primary !important;
+        transition: 0.2s;
+    }
+
+    &.color-white {
+        color: $component-text-default-color-1 !important;
+        background-color: #fff !important;
+        transition: 0.2s;
+
+        &:hover {
+            color: #fff !important;
+            background-color: $color-primary !important;
+        }
+    }
+}

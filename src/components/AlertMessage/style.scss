@@ -1,0 +1,78 @@
+
+@import '../../styles/variables';
+
+.paper-alertmessage {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 12px 12px 20px;
+    border-radius: $component-default-border-radius !important;
+
+    .icon-severity {
+        font-size: 36px;
+        margin-top: 8px;
+    }
+
+    .box-main {
+        width: 100%;
+        padding-left: 24px;
+
+        .box-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .box-severity {
+                display: flex;
+                align-items: center;
+                
+                .text-title {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+
+            .iconbutton-close {
+                font-size: 16px;
+            }
+        }
+
+        .box-content {
+            padding: 4px 0px;
+
+            .text-message {
+                font-size: 16px;
+                display: block;
+            }
+        }
+    }
+
+
+    .severity-error {
+        color: $component-alertmessage-severity-error-color !important;
+    }
+
+    .severity-success {
+        color: $component-alertmessage-severity-success-color !important;
+    }
+
+    .severity-info {
+        color: $component-alertmessage-severity-info-color !important;
+    }
+
+    .severity-warning {
+        color: $component-alertmessage-severity-warning-color !important;
+    }
+
+    .severity-timeout {
+        color: $component-alertmessage-severity-timeout-color !important;
+    }
+}
+
+
+@media screen and (max-width: $screen-size-sm) {
+    .paper-alertmessage {
+        width: calc(100vw - 48px) !important;
+    }
+}

@@ -1,0 +1,135 @@
+
+@import './variables';
+@import './fonts';
+
+
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background: $screen-background-color !important;
+}
+
+
+img {
+    -webkit-user-drag: none !important;
+    -khtml-user-drag: none !important;
+    -moz-user-drag: none !important;
+    -o-user-drag: none !important;
+}
+
+
+
+// General
+.position-relative { position: relative !important; }
+
+.color-white { color: #fff !important; }
+.color-primary { color: $color-primary !important; }
+.color-text-1 { color: $component-text-default-color-1 !important; }
+
+.display-none, .hidden { display: none !important; }
+.display-flex { display: flex !important; }
+.display-block { display: block !important; }
+
+.justifycontent-center { justify-content: center !important; }
+.justifycontent-flexend { justify-content: flex-end !important; }
+
+.alignitems-center { align-items: center !important; }
+.alignitems-flexend { align-items: flex-end !important; }
+
+.flexdirection-column { flex-direction: column !important; }
+
+.cursor-pointer { cursor: pointer !important; }
+
+.textalign-center { text-align: center !important; }
+.textalign-right { text-align: right !important; }
+
+
+.fontsize-8 { font-size: 8px !important; }
+.fontsize-10 { font-size: 10px !important; }
+.fontsize-12 { font-size: 12px !important; }
+.fontsize-14 { font-size: 14px !important; }
+.fontsize-16 { font-size: 16px !important; }
+.fontsize-18 { font-size: 18px !important; }
+.fontsize-20 { font-size: 20px !important; }
+.fontsize-22 { font-size: 22px !important; }
+.fontsize-24 { font-size: 24px !important; }
+.fontsize-26 { font-size: 26px !important; }
+.fontsize-28 { font-size: 28px !important; }
+.fontsize-30 { font-size: 30px !important; }
+.fontsize-32 { font-size: 32px !important; }
+
+.fontweight-600 { font-weight: 600 !important; }
+
+.texttransform-uppercase { text-transform: uppercase !important; }
+
+
+
+// Padding
+.paddingTop-none { padding-top: 0px !important; }
+.paddingBottom-none { padding-bottom: 0px !important; }
+.paddingRight-none { padding-right: 0px !important; }
+.paddingLeft-none { padding-left: 0px !important; }
+
+.padding-none {
+    padding: 0px !important;
+}
+
+.paddingY-none { 
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.paddingX-none { 
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.paddingY-8 { 
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.paddingX-12 { 
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
+
+
+// Animations
+@keyframes scale_in {
+    0% { transform: scale(0); }
+    70% { transform: scale(1); }
+}
+
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+// MUI Components
+//Divider
+.MuiDivider-root {
+    border-color: $component-divider-default-border-color !important;
+}
+
+// Tooltip
+.MuiTooltip-tooltip {
+    padding: 12px !important;
+    background-color: $component-tooltip-default-background-color !important;
+    border-radius: $component-default-border-radius !important;
+    color: $component-tooltip-default-color !important;
+
+    .MuiTooltip-arrow {
+        color: $component-tooltip-default-background-color !important;
+    }
+}
