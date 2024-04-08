@@ -72,7 +72,7 @@ const Contact = (props) => {
                 }
 
                 <Grid item xs={12} marginTop={8}>
-                    <iframe src={DefaultConstants.contact.googleMaps} title='GoogleMaps' />
+                    <iframe src={DefaultConstants.address.googleMaps} title='GoogleMaps' />
                 </Grid>
             </Grid>
 

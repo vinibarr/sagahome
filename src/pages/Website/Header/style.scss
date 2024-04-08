@@ -86,6 +86,15 @@
         position: sticky;
         top: 0px;
         z-index: 990;
+        transition: 0.2s;
+
+        &.scrolling {
+            background-color: $website-navbar-scrolling-background-color;
+        }
+
+        &:hover {
+            background-color: $website-navbar-hover-background-color;
+        }
     
         .grid-navbar-trigger-close {
             width: 100%;

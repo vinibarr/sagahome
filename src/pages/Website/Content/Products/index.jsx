@@ -25,7 +25,12 @@ const Products = (props) => {
                 DefaultConstants.products.items.map((item, index) => {
                     return <Box key={index} className='products-container'>
                         <Typography className='category-name'> {translate(item.name)} </Typography>
-                        <Typography className='category-description'> {translate(item.description)} </Typography>
+
+                        {
+                            translate(item.description).split('<br>').map((d, index2) => {
+                                return <Typography className='category-description' key={index2}> {d} </Typography>;
+                            })
+                        }
 
                         <Box className='products-list'>
                             {

@@ -10,20 +10,19 @@ const DefaultConstants = {
         url: 'https://vinibarr.com.br/'
     },
     phones: [
-        '(99) 99999-9999',
-        '(99) 99999-9999'
+        '(11) 3225-0908'
     ],
     emails: [
-        'contato@teste.com.br',
-        'suporte@teste.com.br'
+        'saga@sagasystems.com.br'
     ],
     address: {
-        street: 'Rua XXXX',
-        city: 'YYYYY/ZZ',
-        zipCode: '99999-999'
+        street: 'Praça da República, 386 - 5º Cj 53',
+        city: 'São Paulo/SP',
+        zipCode: '01045-000',
+        googleMaps: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1026.4110798530396!2d-46.64206941261307!3d-23.542812493149224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDMyJzMzLjYiUyA0NsKwMzgnMjkuMiJX!5e0!3m2!1spt-BR!2sbr!4v1712603726185!5m2!1spt-BR!2sbr"
     },
     wallpaper: {
-        url: 'https://www.youtube.com/embed/_2xTVWauCeU?rel=0&autoplay=1&controls=0&loop=1&playlist=_2xTVWauCeU&mute=1&vq=hd1080',
+        url: 'https://www.youtube.com/embed/NRLG92vPDJE?rel=0&autoplay=1&controls=0&loop=1&playlist=NRLG92vPDJE&mute=1&vq=hd1080',
         title: 'Wallpaper'
     },
     catalog: {
@@ -221,29 +220,28 @@ const DefaultConstants = {
         title: 'contact',
         subtitle: 'contactDescription',
         wallpaper: 'assets/images/default.png',
-        googleMaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.504716991768!2d-46.63677582484273!3d-23.550309878807468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59abaaae4233%3A0xd9186faf714bc5b1!2zUHJhw6dhIGRhIFPDqSAtIFPDqSwgU8OjbyBQYXVsbyAtIFNQLCAwMTAwMS0wMDA!5e0!3m2!1spt-BR!2sbr!4v1712330137748!5m2!1spt-BR!2sbr"
     },
     socialMedias: [
         {
-            url: 'undefined',
+            url: undefined,
             Icon: WhatsApp
         }, {
-            url: 'undefined',
+            url: 'https://www.facebook.com/sagasystems/?locale=pt_BR',
             Icon: Facebook
         }, {
-            url: 'undefined',
+            url: 'https://www.youtube.com/@SagaSystemsOficial',
             Icon: YouTube
         }, {
-            url: 'undefined',
+            url: 'https://www.instagram.com/sagasystems/',
             Icon: Instagram
         }, {
-            url: 'undefined',
+            url: 'https://www.linkedin.com/company/saga-systems-brasil/?originalSubdomain=br',
             Icon: LinkedIn
         }, {
-            url: 'undefined',
+            url: undefined,
             Icon: Pinterest
         }, {
-            url: 'undefined',
+            url: undefined,
             Icon: Twitter
         }
     ],

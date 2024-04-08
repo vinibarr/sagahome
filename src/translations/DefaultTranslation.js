@@ -12,6 +12,12 @@ const DefaultTranslation = {
         es_es: "Sobre nosotros"
     },
 
+    changeLanguage: {
+        pt_br: "Alterar idioma",
+        en_us: "Change the language",
+        es_es: "Cambia el idioma"
+    },
+
     contact: {
         pt_br: "Contato",
         en_us: "Contact",

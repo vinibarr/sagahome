@@ -4,6 +4,7 @@ import { useLanguageContext } from '../../../../contexts/LanguageContext';
 import DefaultConstants from '../../../../data/Constants';
 import Button from '../../../../components/Button';
 import { history } from '../../../../router/BrowserHistory';
+import { ClientImages } from '../../../../data/Images';
 
 
 const Home = (props) => {
@@ -19,6 +20,14 @@ const Home = (props) => {
                             title={DefaultConstants.wallpaper.title}
                         />
                     </Box>
+                </Box>
+
+                <Box className='wallpaper-watermark'>
+                    <img
+                        src={ClientImages.LogoHorizontalWhite}
+                        alt={DefaultConstants.systemName}
+                        className='image-logo'
+                    />
                 </Box>
             </Box>
         </Grid>
@@ -64,9 +73,13 @@ const Home = (props) => {
                 {translate(DefaultConstants.about.title)}
             </Typography>
 
-            <Typography variant='body1' className='color-white position-relative'>
-                {translate(DefaultConstants.about.shortDescription)}
-            </Typography>
+            {
+                translate(DefaultConstants.about.shortDescription).split('<br>').map((d, index) => {
+                    return <Typography variant='body1' className='color-white position-relative' paddingY={1} key={index}>
+                        {d}
+                    </Typography>;
+                })
+            }
 
             <Box marginTop={6}>
                 <Button color='white' label={translate('readMore')} onClick={() => history.push('/about')} />

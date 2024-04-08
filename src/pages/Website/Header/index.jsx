@@ -4,7 +4,7 @@ import { Grid, Typography, IconButton, Backdrop, Box } from "@mui/material";
 import DefaultConstants from "../../../data/Constants";
 import { ClientImages } from "../../../data/Images";
 import { useLanguageContext } from '../../../contexts/LanguageContext';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Close, Email, LocationOn, Menu, MoreVert, Phone } from '@mui/icons-material';
 import { history } from '../../../router/BrowserHistory';
 import NavBarLinks from '../../../data/NavBar';
@@ -17,9 +17,11 @@ const Header = () => {
     const [navLinkSelected, setNavLinkSelected] = useState('/');
     const [informationsActived, setInformationsActived] = useState(false);
     const [navBarActived, setNavBarActived] = useState(false);
+    const [scrolling, setScrolling] = useState(false);
     
 
     useEffect(() => {
+        handleScroll();
         setNavBarActived(false);
         setNavLinkSelected(history.location.pathname);
 
@@ -37,6 +39,17 @@ const Header = () => {
         }
         // eslint-disable-next-line
     }, [history.location.pathname]);
+
+
+    window.onscroll = useCallback(() => {
+        handleScroll();
+        // eslint-disable-next-line
+    }, []);
+
+
+    const handleScroll = useCallback(() => {
+        setScrolling(window.scrollY > 60);
+    }, []);
 
     return (
         <>
@@ -124,7 +137,7 @@ const Header = () => {
                     </Box>
                 </Grid>
 
-                <Grid item xs={12} className={`grid-navbar ${navBarActived ? 'actived' : ''}`}>
+                <Grid item xs={12} className={`grid-navbar ${scrolling ? 'scrolling' : ''} ${navBarActived ? 'actived' : ''}`}>
                     <Box className='grid-navbar-trigger-close'>
                         <IconButton onClick={() => setNavBarActived(false)}>
                             <Close />
