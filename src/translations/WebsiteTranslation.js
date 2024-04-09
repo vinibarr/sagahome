@@ -34,6 +34,18 @@ const WebsiteTranslation = {
         es_es: ""
     },
 
+    contactFormErrorOnTrySend: {
+        pt_br: "Ocorreu um problema ao tentar enviar o e-mail de contato...",
+        en_us: "",
+        es_es: ""
+    },
+
+    contactFormSentSuccessfully: {
+        pt_br: "E-mail de contato enviado com sucesso!",
+        en_us: "",
+        es_es: ""
+    },
+
     contactFormTitle: {
         pt_br: "Lorem ipsum dolor sit amet.",
         en_us: "",

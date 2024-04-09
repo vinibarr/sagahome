@@ -36,16 +36,46 @@ const DefaultTranslation = {
         es_es: "Desarrollado por"
     },
 
+    email: {
+        pt_br: "E-mail",
+        en_us: "Email",
+        es_es: "Email"
+    },
+
     english: {
         pt_br: "Inglês",
         en_us: "English",
         es_es: "Inglés"
     },
 
+    error: {
+        pt_br: "Erro",
+        en_us: "Error",
+        es_es: "Error"
+    },
+
     home: {
         pt_br: "Home",
         en_us: "Home",
         es_es: "Home"
+    },
+
+    information: {
+        pt_br: "Informação",
+        en_us: "Information",
+        es_es: "Información"
+    },
+
+    message: {
+        pt_br: "Mensagem",
+        en_us: "Message",
+        es_es: "Mensaje"
+    },
+
+    name: {
+        pt_br: "Nome",
+        en_us: "Name",
+        es_es: "Nombre"
     },
 
     ourCatalog: {
@@ -58,6 +88,12 @@ const DefaultTranslation = {
         pt_br: "Nossos produtos",
         en_us: "Our products",
         es_es: "nuestros productos"
+    },
+
+    phone: {
+        pt_br: "Telefone",
+        en_us: "Phone",
+        es_es: "Teléfono"
     },
 
     portuguese: {
@@ -78,10 +114,40 @@ const DefaultTranslation = {
         es_es: "Lea mas"
     },
 
+    send: {
+        pt_br: "Enviar",
+        en_us: "Send",
+        es_es: "Enviar"
+    },
+
     spanish: {
         pt_br: "Espanhol",
         en_us: "Spanish",
         es_es: "Español"
+    },
+
+    success: {
+        pt_br: "Sucesso",
+        en_us: "Success",
+        es_es: "Éxito"
+    },
+
+    subject: {
+        pt_br: "Assunto",
+        en_us: "Subject",
+        es_es: "Asunto"
+    },
+
+    timeLimitExceeded: {
+        pt_br: "Limite de tempo excedido",
+        en_us: "Time limit exceeded",
+        es_es: "Límite de tiempo excedido"
+    },
+
+    warning: {
+        pt_br: "Atenção",
+        en_us: "Warning",
+        es_es: "Advertencia"
     },
 }
 

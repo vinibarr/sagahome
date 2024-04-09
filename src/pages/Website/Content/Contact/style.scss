@@ -41,6 +41,16 @@
     iframe {
         height: 400px;
     }
+
+    .button-sendform {
+        padding: 8px 40px !important;
+        background-color: $color-primary;
+        border-radius: $component-default-border-radius;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
 
@@ -54,6 +64,10 @@
 
         .form-text {
             text-align: center;
+        }
+
+        .button-sendform {
+            width: 80%;
         }
     }
 }

@@ -1,9 +1,7 @@
 import { Facebook, Instagram, LinkedIn, Pinterest, Twitter, WhatsApp, YouTube } from "@mui/icons-material";
 
 const DefaultConstants = {
-    baseURL: process.env.REACT_APP_BASE_URL,
-    filesURL: process.env.REACT_APP_FILES_URL,
-    publicURL: process.env.PUBLIC_URL,
+    baseUrl: process.env.REACT_APP_BASE_URL || '',
     systemName: 'Saga Home',
     developer: {
         name: 'Vinibarr Sistemas Online',
@@ -220,6 +218,13 @@ const DefaultConstants = {
         title: 'contact',
         subtitle: 'contactDescription',
         wallpaper: 'assets/images/default.png',
+        subjects: [
+            'Assunto 1',
+            'Assunto 2',
+            'Assunto 3',
+            'Assunto 4',
+            'Assunto 5'
+        ]
     },
     socialMedias: [
         {
