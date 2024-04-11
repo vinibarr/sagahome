@@ -30,11 +30,11 @@ const DefaultConstants = {
     products: {
         title: 'products',
         subtitle: 'productsDescription',
-        wallpaper: 'assets/images/default.png',
+        wallpaper: 'assets/images/products/wallpaper.png',
         items: [
             {
                 name: 'electronicLocks',
-                image: 'assets/images/default.png',
+                image: 'assets/images/products/electronicLocks/wallpaper.png',
                 description: 'electronicLocksDescription',
                 products: [
                     {
@@ -77,7 +77,7 @@ const DefaultConstants = {
                 ]
             }, {
                 name: 'electronicSafes',
-                image: 'assets/images/default.png',
+                image: 'assets/images/products/electronicSafes/wallpaper.png',
                 description: 'electronicSafesDescription',
                 products: [
                     {
@@ -120,7 +120,7 @@ const DefaultConstants = {
                 ]
             }, {
                 name: 'energySaving',
-                image: 'assets/images/default.png',
+                image: 'assets/images/products/energySaving/wallpaper.png',
                 description: 'energySavingDescription',
                 products: [
                     {
@@ -163,7 +163,7 @@ const DefaultConstants = {
                 ]
             }, {
                 name: 'accessories',
-                image: 'assets/images/default.png',
+                image: 'assets/images/products/accessories/wallpaper.png',
                 description: 'accessoriesDescription',
                 products: [
                     {
@@ -210,14 +210,15 @@ const DefaultConstants = {
     about: {
         title: 'aboutUs',
         subtitle: 'aboutUsDescription',
-        wallpaper: 'assets/images/default.png',
+        wallpaper: 'assets/images/about/wallpaper.png',
         description: 'aboutDescription',
+        homeWallpaper: 'assets/images/about/homeWallpaper.png',
         shortDescription: 'aboutShortDescription'
     },
     contact: {
         title: 'contact',
         subtitle: 'contactDescription',
-        wallpaper: 'assets/images/default.png',
+        wallpaper: 'assets/images/contact/wallpaper.png',
         subjects: [
             'Assunto 1',
             'Assunto 2',

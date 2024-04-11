@@ -68,7 +68,7 @@ const Home = (props) => {
             </Box>
         </Grid>
 
-        <Grid item xs={12} className='grid-content-section container-aboutus' sx={{ backgroundImage: `url(${DefaultConstants.about.wallpaper})` }}>
+        <Grid item xs={12} className='grid-content-section container-aboutus' sx={{ backgroundImage: `url(${DefaultConstants.about.homeWallpaper})` }}>
             <Typography className='section-title color-white'>
                 {translate(DefaultConstants.about.title)}
             </Typography>
