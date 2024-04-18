@@ -131,9 +131,13 @@ const Contact = (props) => {
                         {translate('contactFormTitle')}
                     </Typography>
 
-                    <Typography variant='span' className='color-text-1 fontsize-20 display-block' marginTop={2}>
-                        {translate('contactFormDescription')}
-                    </Typography>
+                    {
+                        translate('contactFormDescription').split('<br>').map((d, index) => {
+                            return <Typography variant='span' className='color-text-1 fontsize-20 display-block' marginTop={index === 0 ? 3 : 1} key={index}>
+                                {d}
+                            </Typography>;
+                        })
+                    }
                 </Grid>
 
                 <Grid item lg={7} xs={12}>

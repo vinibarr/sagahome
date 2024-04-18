@@ -1,9 +1,8 @@
 
 const WebsiteTranslation = {
-    aboutDescription: {
-        pt_br: `Lorem ipsum dolor sit amet. Et molestiae quisquam sit cumque earum sed laborum corrupti qui magnam repudiandae rem explicabo reiciendis. Rem assumenda atque qui ipsam sequi eum quasi necessitatibus vel totam galisum eos quos numquam quo magnam officia. Eum aliquam mollitia et necessitatibus explicabo sit nesciunt veritatis. Id autem veniam aut optio quia ut dolorem necessitatibus ut excepturi voluptatibus?
-            <br>Ut rerum saepe ut internos atque qui illo molestiae cum corporis similique sed officia natus aut aliquam architecto. Id cumque error et accusantium voluptatem id consequatur earum et consequatur quibusdam a exercitationem incidunt. Et deleniti nisi et magnam rerum id alias tempore et tempora repudiandae vel voluptatem consequuntur aut dignissimos eveniet est sunt libero! In saepe minus eos commodi molestiae et eveniet ullam aut voluptas velit est quam labore et consequatur doloribus.
-            <br>Eum quam tempore aut repudiandae totam qui perferendis illum est galisum quia eum aliquam autem. Sed molestiae molestias ut voluptate quis aut nihil commodi et quia corporis sit nulla animi ut impedit rerum. Rem possimus laboriosam est nemo pariatur eos dolores enim qui delectus sapiente in autem suscipit ad repellat quod qui cumque pariatur.`,
+    aboutDescription1: {
+        pt_br: `Bem-vindos à Saga Home, onde segurança e inovação se encontram! Somos especialistas em fechaduras eletrônicas para residências, proporcionando tranquilidade e controle total sobre o acesso à sua casa. Deixe-nos apresentar nosso universo de proteção.
+            <br>A Saga Home, uma empresa do grupo Saga Systems Brasil, vencedora do Troféu Fornecedor por mais de uma década e com profissionais de mais de 35 anos de experiência, agora expandimos nosso foco para o ambiente residencial. Nosso compromisso é oferecer produtos de alta qualidade que combinam tecnologia, eficiência e segurança.`,
         en_us: ``,
         es_es: ``
     }, 
@@ -17,19 +16,21 @@ const WebsiteTranslation = {
     },
 
     aboutUsDescription: {
-        pt_br: "Lorem ipsum dolor sit amet.",
+        pt_br: "Conheça um pouco sobre nossa história",
         en_us: "",
         es_es: ""
     },
 
     contactDescription: {
-        pt_br: "Lorem ipsum dolor sit amet.",
+        pt_br: "Venha nos fazer uma visita",
         en_us: "",
         es_es: ""
     },
 
     contactFormDescription: {
-        pt_br: "Lorem ipsum dolor sit amet. Et molestiae quisquam sit cumque earum sed laborum corrupti qui magnam repudiandae rem explicabo reiciendis. Rem assumenda atque qui ipsam sequi eum quasi necessitatibus vel totam galisum eos quos numquam quo magnam officia. Eum aliquam mollitia et necessitatibus explicabo sit nesciunt veritatis. Id autem veniam aut optio quia ut dolorem necessitatibus ut excepturi voluptatibus?",
+        pt_br: `Estamos ansiosos para ouvir de você!
+            <br>Entre em contato para esclarecer dúvidas, enviar reclamações ou compartilhar suas sugestões.
+            <br>Sua opinião é muito importante para melhorarmos nossos produtos e serviços!`,
         en_us: "",
         es_es: ""
     },
@@ -47,13 +48,19 @@ const WebsiteTranslation = {
     },
 
     contactFormTitle: {
-        pt_br: "Lorem ipsum dolor sit amet.",
+        pt_br: "Fale conosco",
         en_us: "",
         es_es: ""
     },
 
     productsDescription: {
-        pt_br: "Lorem ipsum dolor sit amet.",
+        pt_br: "Segurança e tecnologia juntos",
+        en_us: "",
+        es_es: ""
+    },
+
+    protectingYourHomeWithTechnology: {
+        pt_br: "Protegendo seu lar com tecnologia",
         en_us: "",
         es_es: ""
     },

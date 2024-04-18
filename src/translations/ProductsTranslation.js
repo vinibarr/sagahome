@@ -6,8 +6,15 @@ const ProductsTranslation = {
         es_es: ``
     },
 
+    accessoriesAboutDescription: {
+        pt_br: `Complemente sua segurança com nossos acessórios de alto padrão: olho mágico, fecho de segurança, pega ladrão, batedores de porta, cartões e pulseiras RFID.`,
+        en_us: ``,
+        es_es: ``
+    },
+
     accessoriesDescription: {
-        pt_br: `Lorem ipsum dolor sit amet. Sit similique galisum sit nihil architecto sed unde dolor eum omnis quaerat et galisum sint qui tempore dolore.`,
+        pt_br: `Os acessórios disponíveis na Saga Home, representam um marco significativo na evolução da automação residencial e empresarial. Esta inovadora linha de produtos é projetada para melhorar o conforto, a segurança e a eficiência energética de qualquer ambiente, seja ele doméstico ou corporativo. A Saga Systems, conhecida por sua abordagem pioneira e tecnologia de ponta, oferece uma gama de acessórios que se integram perfeitamente para criar um ecossistema inteligente e conectado.
+            <br>Opções como olho mágico, fechos de segurança, pega ladrão, batedores de porta, são itens de segurança que, aliados com a alta tecnologia das fechaduras eletrônicas, tornam o ambiente mais seguro e tranquilo.`,
         en_us: ``,
         es_es: ``
     },
@@ -18,15 +25,28 @@ const ProductsTranslation = {
         es_es: ``
     },
 
+    electronicLocksAboutDescription: {
+        pt_br: `Nossas fechaduras digitais proporcionam acesso seguro e conveniente. Diga adeus às chaves tradicionais e abra as portas para a modernidade.`,
+        en_us: ``,
+        es_es: ``
+    },
+
     electronicLocksDescription: {
-        pt_br: `As fechaduras eletrônicas residenciais da Saga Systems representam uma evolução notável na segurança e na conveniência do lar moderno. Combinando tecnologia avançada e design intuitivo, essas fechaduras oferecem aos usuários uma forma segura e eficiente de controlar o acesso às suas residências. A instalação desses sistemas não somente eleva o nível de segurança, como também proporciona uma experiência de uso sem complicações, permitindo a abertura e o fechamento das portas através de dispositivos móveis, senhas personalizadas ou até mesmo biometria.
-            <br>A tecnologia por trás das fechaduras eletrônicas da Saga Systems é projetada para atender às diversas necessidades dos usuários. Seja para evitar que chaves sejam perdidas ou copiadas, ou para permitir o acesso remoto à residência, essas fechaduras transformam o modo como interagimos com nossos espaços. Além disso, a capacidade de criar códigos temporários para visitantes e prestadores de serviços sem comprometer a segurança geral é uma vantagem inestimável, trazendo tranquilidade para os moradores.`,
+        pt_br: `As fechaduras eletrônicas residenciais da Saga Systems representam uma revolução na maneira como protegemos nossas casas. Desenvolvidas com a mais alta tecnologia, essas fechaduras oferecem não apenas segurança reforçada, mas também uma conveniência sem precedentes para os usuários. O uso de sistemas avançados de reconhecimento, como digitais, códigos numéricos ou até mesmo reconhecimento facial, elimina a necessidade de chaves físicas, reduzindo significativamente o risco de perda ou roubo de chaves.
+            <br>Além da segurança, as fechaduras eletrônicas da Saga Systems estão equipadas com funcionalidades que facilitam o dia a dia. Por exemplo, muitos modelos permitem o controle remoto via aplicativos de smartphone, possibilitando que os proprietários abram ou fechem suas portas à distância. Isso é particularmente útil em situações onde é necessário conceder acesso temporário a visitantes ou prestadores de serviço, sem comprometer a segurança permanente da residência.
+            <br>Outro ponto forte das fechaduras eletrônicas Saga Systems é a sua integração com sistemas de automação residencial. Isso permite que sejam configuradas em conjunto com outros dispositivos inteligentes da casa, como câmeras de segurança e alarmes, criando um ecossistema de segurança robusto e inteligente. A instalação dessas fechaduras é geralmente simples e pode ser realizada sem grandes reformas, tornando-as uma opção viável e atraente para melhorar a segurança residencial.`,
         en_us: ``,
         es_es: ``
     },
 
     electronicSafes: {
         pt_br: `Cofres eletrônicos`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    electronicSafesAboutDescription: {
+        pt_br: `Proteja seus objetos de valor com nossos cofres digitais premiados. Perfeito para quem busca comodidade e segurança.`,
         en_us: ``,
         es_es: ``
     },
@@ -44,8 +64,16 @@ const ProductsTranslation = {
         es_es: ``
     },
 
+    energySavingAboutDescription: {
+        pt_br: `Contribua para a sustentabilidade e economize energia em seu lar com nossos dispositivos inteligentes.`,
+        en_us: ``,
+        es_es: ``
+    },
+
     energySavingDescription: {
-        pt_br: `Lorem ipsum dolor sit amet. Sit similique galisum sit nihil architecto sed unde dolor eum omnis quaerat et galisum sint qui tempore dolore.`,
+        pt_br: `Os economizadores de energia da Saga Systems representam uma inovação significativa no campo da eficiência energética e sustentabilidade ambiental. Este avanço tecnológico não só promete reduzir significativamente o consumo de energia em residências e estabelecimentos comerciais, mas também contribui para a mitigação das mudanças climáticas ao diminuir a emissão de gases de efeito estufa.
+            <br>Uma das principais vantagens dos economizadores de energia da Saga Systems é sua capacidade de se adaptar a diferentes ambientes e necessidades, oferecendo soluções personalizadas para cada situação. Eles são projetados para otimizar o uso de energia elétrica em vários dispositivos, desde iluminação até aparelhos eletrônicos e sistemas de climatização, garantindo que apenas a quantidade necessária de energia seja utilizada. Isso não apenas reduz o consumo de energia, mas também prolonga a vida útil dos aparelhos, representando uma economia significativa a longo prazo.
+            <br>Além disso, a instalação dos economizadores de energia da Saga Systems é simples e não requer grandes intervenções estruturais, tornando-os uma opção viável tanto para novas construções quanto para edificações já existentes. A empresa também oferece um suporte técnico excepcional, assegurando que seus clientes obtenham o máximo benefício de seus produtos. Adotar as soluções da Saga Systems é, portanto, um passo importante para quem busca não apenas economizar na conta de luz, mas também contribuir para a preservação do meio ambiente para as futuras gerações.`,
         en_us: ``,
         es_es: ``
     },

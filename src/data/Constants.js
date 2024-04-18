@@ -36,41 +36,36 @@ const DefaultConstants = {
                 name: 'electronicLocks',
                 image: 'assets/images/products/electronicLocks/wallpaper.png',
                 description: 'electronicLocksDescription',
+                aboutDescription: 'electronicLocksAboutDescription',
                 products: [
                     {
                         name: 'Fechadura eletrônica 1',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicLocks/1.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'Fechadura eletrônica 2',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicLocks/2.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'Fechadura eletrônica 3',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicLocks/3.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'Fechadura eletrônica 4',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicLocks/4.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'Fechadura eletrônica 5',
                         images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'electronicLocksDescription',
-                    }, {
-                        name: 'Fechadura eletrônica 6',
-                        images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicLocks/5.png'
                         ],
                         description: 'electronicLocksDescription',
                     }
@@ -79,6 +74,7 @@ const DefaultConstants = {
                 name: 'electronicSafes',
                 image: 'assets/images/products/electronicSafes/wallpaper.png',
                 description: 'electronicSafesDescription',
+                aboutDescription: 'electronicSafesAboutDescription',
                 products: [
                     {
                         name: 'Cofre eletrônico 1',
@@ -122,6 +118,7 @@ const DefaultConstants = {
                 name: 'energySaving',
                 image: 'assets/images/products/energySaving/wallpaper.png',
                 description: 'energySavingDescription',
+                aboutDescription: 'energySavingAboutDescription',
                 products: [
                     {
                         name: 'Economizador de energia 1',
@@ -165,6 +162,7 @@ const DefaultConstants = {
                 name: 'accessories',
                 image: 'assets/images/products/accessories/wallpaper.png',
                 description: 'accessoriesDescription',
+                aboutDescription: 'accessoriesAboutDescription',
                 products: [
                     {
                         name: 'Acessório 1',
@@ -211,7 +209,6 @@ const DefaultConstants = {
         title: 'aboutUs',
         subtitle: 'aboutUsDescription',
         wallpaper: 'assets/images/about/wallpaper.png',
-        description: 'aboutDescription',
         homeWallpaper: 'assets/images/about/homeWallpaper.png',
         shortDescription: 'aboutShortDescription'
     },

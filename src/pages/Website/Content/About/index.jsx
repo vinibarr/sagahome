@@ -21,9 +21,35 @@ const About = (props) => {
         </Grid>
 
         <Grid item xs={12} className='grid-content-section textalign-center'>
+            <Typography className='section-title'>
+                {translate('protectingYourHomeWithTechnology')}
+            </Typography>
+
             {
-                translate(DefaultConstants.about.description).split('<br>').map((d, index) => {
-                    return <Typography key={index}> {d} </Typography>;
+                translate('aboutDescription1').split('<br>').map((d, index) => {
+                    return <Typography variant='body1' className='position-relative' paddingY={1} key={index}>
+                        {d}
+                    </Typography>;
+                })
+            }
+        </Grid>
+
+        <Grid item xs={12} className='grid-content-section textalign-center'>
+            <Typography className='section-title'>
+                {translate('ourProducts')}
+            </Typography>
+
+            {
+                DefaultConstants.products.items.map((item, index) => {
+                    return <Box key={index} marginTop={index === 0 ? 0 : 4}>
+                        <Typography className='fontweight-600'>
+                            {index + 1}. {translate(item.name)}:
+                        </Typography>
+
+                        <Typography className=''>
+                            {translate(item.aboutDescription)}
+                        </Typography>
+                    </Box>;
                 })
             }
         </Grid>
