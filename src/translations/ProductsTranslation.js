@@ -57,26 +57,6 @@ const ProductsTranslation = {
         en_us: ``,
         es_es: ``
     },
-
-    energySaving: {
-        pt_br: `Economizador de energia`,
-        en_us: ``,
-        es_es: ``
-    },
-
-    energySavingAboutDescription: {
-        pt_br: `Contribua para a sustentabilidade e economize energia em seu lar com nossos dispositivos inteligentes.`,
-        en_us: ``,
-        es_es: ``
-    },
-
-    energySavingDescription: {
-        pt_br: `Os economizadores de energia da Saga Systems representam uma inovação significativa no campo da eficiência energética e sustentabilidade ambiental. Este avanço tecnológico não só promete reduzir significativamente o consumo de energia em residências e estabelecimentos comerciais, mas também contribui para a mitigação das mudanças climáticas ao diminuir a emissão de gases de efeito estufa.
-            <br>Uma das principais vantagens dos economizadores de energia da Saga Systems é sua capacidade de se adaptar a diferentes ambientes e necessidades, oferecendo soluções personalizadas para cada situação. Eles são projetados para otimizar o uso de energia elétrica em vários dispositivos, desde iluminação até aparelhos eletrônicos e sistemas de climatização, garantindo que apenas a quantidade necessária de energia seja utilizada. Isso não apenas reduz o consumo de energia, mas também prolonga a vida útil dos aparelhos, representando uma economia significativa a longo prazo.
-            <br>Além disso, a instalação dos economizadores de energia da Saga Systems é simples e não requer grandes intervenções estruturais, tornando-os uma opção viável tanto para novas construções quanto para edificações já existentes. A empresa também oferece um suporte técnico excepcional, assegurando que seus clientes obtenham o máximo benefício de seus produtos. Adotar as soluções da Saga Systems é, portanto, um passo importante para quem busca não apenas economizar na conta de luz, mas também contribuir para a preservação do meio ambiente para as futuras gerações.`,
-        en_us: ``,
-        es_es: ``
-    },
 }
 
 export default ProductsTranslation;

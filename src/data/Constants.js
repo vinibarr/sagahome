@@ -79,83 +79,21 @@ const DefaultConstants = {
                     {
                         name: 'Cofre eletrônico 1',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicSafes/1.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
                         name: 'Cofre eletrônico 2',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicSafes/2.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
                         name: 'Cofre eletrônico 3',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/electronicSafes/3.png'
                         ],
                         description: 'electronicSafesDescription',
-                    }, {
-                        name: 'Cofre eletrônico 4',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'electronicSafesDescription',
-                    }, {
-                        name: 'Cofre eletrônico 5',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'electronicSafesDescription',
-                    }, {
-                        name: 'Cofre eletrônico 6',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'electronicSafesDescription',
-                    }
-                ]
-            }, {
-                name: 'energySaving',
-                image: 'assets/images/products/energySaving/wallpaper.png',
-                description: 'energySavingDescription',
-                aboutDescription: 'energySavingAboutDescription',
-                products: [
-                    {
-                        name: 'Economizador de energia 1',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'energySavingDescription',
-                    }, {
-                        name: 'Economizador de energia 2',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'energySavingDescription',
-                    }, {
-                        name: 'Economizador de energia 3',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'energySavingDescription',
-                    }, {
-                        name: 'Economizador de energia 4',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'energySavingDescription',
-                    }, {
-                        name: 'Economizador de energia 5',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'energySavingDescription',
-                    }, {
-                        name: 'Economizador de energia 6',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'energySavingDescription',
                     }
                 ]
             }, {
@@ -167,37 +105,25 @@ const DefaultConstants = {
                     {
                         name: 'Acessório 1',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/accessories/1.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
                         name: 'Acessório 2',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/accessories/2.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
                         name: 'Acessório 3',
                         images: [
-                            'assets/images/default.png'
+                            'assets/images/products/accessories/3.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
                         name: 'Acessório 4',
                         images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'accessoriesDescription',
-                    }, {
-                        name: 'Acessório 5',
-                        images: [
-                            'assets/images/default.png'
-                        ],
-                        description: 'accessoriesDescription',
-                    }, {
-                        name: 'Acessório 6',
-                        images: [
-                            'assets/images/default.png'
+                            'assets/images/products/accessories/4.png'
                         ],
                         description: 'accessoriesDescription',
                     }
