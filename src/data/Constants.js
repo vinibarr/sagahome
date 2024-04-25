@@ -56,6 +56,12 @@ const DefaultConstants = {
                         wallpaper: 'assets/images/products/electronicLocks/2.png',
                         images: [
                             'assets/images/products/electronicLocks/2_1.png',
+                            'assets/images/products/electronicLocks/2_2.png',
+                            'assets/images/products/electronicLocks/2_3.png',
+                            'assets/images/products/electronicLocks/2_4.png',
+                            'assets/images/products/electronicLocks/2_5.png',
+                            'assets/images/products/electronicLocks/2_6.png',
+                            'assets/images/products/electronicLocks/2_7.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
@@ -63,6 +69,12 @@ const DefaultConstants = {
                         wallpaper: 'assets/images/products/electronicLocks/3.png',
                         images: [
                             'assets/images/products/electronicLocks/3_1.png',
+                            'assets/images/products/electronicLocks/3_2.png',
+                            'assets/images/products/electronicLocks/3_3.png',
+                            'assets/images/products/electronicLocks/3_4.png',
+                            'assets/images/products/electronicLocks/3_5.png',
+                            'assets/images/products/electronicLocks/3_6.png',
+                            'assets/images/products/electronicLocks/3_7.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
