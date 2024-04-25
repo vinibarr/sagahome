@@ -39,18 +39,17 @@ const DefaultConstants = {
                 aboutDescription: 'electronicLocksAboutDescription',
                 products: [
                     {
-                        name: 'Fechadura eletrônica 1',
+                        name: 'electronicLock1',
                         images: [
                             'assets/images/products/electronicLocks/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
+                            'assets/images/products/electronicLocks/1_1.png',
+                            'assets/images/products/electronicLocks/1_2.png',
+                            'assets/images/products/electronicLocks/1_3.png',
+                            'assets/images/products/electronicLocks/1_4.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'Fechadura eletrônica 2',
+                        name: 'electronicLock2',
                         images: [
                             'assets/images/products/electronicLocks/2.png',
                             'assets/images/products/accessories/1.png',
@@ -61,7 +60,7 @@ const DefaultConstants = {
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'Fechadura eletrônica 3',
+                        name: 'electronicLock3',
                         images: [
                             'assets/images/products/electronicLocks/3.png',
                             'assets/images/products/accessories/1.png',
@@ -72,7 +71,7 @@ const DefaultConstants = {
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'Fechadura eletrônica 4',
+                        name: 'electronicLock4',
                         images: [
                             'assets/images/products/electronicLocks/4.png',
                             'assets/images/products/accessories/1.png',
@@ -83,7 +82,7 @@ const DefaultConstants = {
                         ],
                         description: 'electronicLocksDescription',
                     }, {
-                        name: 'Fechadura eletrônica 5',
+                        name: 'electronicLock5',
                         images: [
                             'assets/images/products/electronicLocks/5.png',
                             'assets/images/products/accessories/1.png',

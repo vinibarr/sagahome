@@ -25,6 +25,36 @@ const ProductsTranslation = {
         es_es: ``
     },
 
+    electronicLock1: {
+        pt_br: `Elegante Slim`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    electronicLock2: {
+        pt_br: `Cianita Bio`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    electronicLock3: {
+        pt_br: `Cianita`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    electronicLock4: {
+        pt_br: `Jade Bio`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    electronicLock5: {
+        pt_br: `Jade`,
+        en_us: ``,
+        es_es: ``
+    },
+
     electronicLocksAboutDescription: {
         pt_br: `Nossas fechaduras digitais proporcionam acesso seguro e conveniente. Diga adeus às chaves tradicionais e abra as portas para a modernidade.`,
         en_us: ``,
