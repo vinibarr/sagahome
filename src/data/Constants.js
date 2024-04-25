@@ -40,56 +40,43 @@ const DefaultConstants = {
                 products: [
                     {
                         name: 'electronicLock1',
+                        wallpaper: 'assets/images/products/electronicLocks/1.png',
                         images: [
-                            'assets/images/products/electronicLocks/1.png',
                             'assets/images/products/electronicLocks/1_1.png',
                             'assets/images/products/electronicLocks/1_2.png',
                             'assets/images/products/electronicLocks/1_3.png',
-                            'assets/images/products/electronicLocks/1_4.png'
+                            'assets/images/products/electronicLocks/1_4.png',
+                            'assets/images/products/electronicLocks/1_5.png',
+                            'assets/images/products/electronicLocks/1_6.png',
+                            'assets/images/products/electronicLocks/1_7.png'
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'electronicLock2',
+                        wallpaper: 'assets/images/products/electronicLocks/2.png',
                         images: [
-                            'assets/images/products/electronicLocks/2.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
+                            'assets/images/products/electronicLocks/2_1.png',
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'electronicLock3',
+                        wallpaper: 'assets/images/products/electronicLocks/3.png',
                         images: [
-                            'assets/images/products/electronicLocks/3.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
+                            'assets/images/products/electronicLocks/3_1.png',
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'electronicLock4',
+                        wallpaper: 'assets/images/products/electronicLocks/4.png',
                         images: [
-                            'assets/images/products/electronicLocks/4.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
+                            'assets/images/products/electronicLocks/4_1.png',
                         ],
                         description: 'electronicLocksDescription',
                     }, {
                         name: 'electronicLock5',
+                        wallpaper: 'assets/images/products/electronicLocks/5.png',
                         images: [
-                            'assets/images/products/electronicLocks/5.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
+                            'assets/images/products/electronicLocks/5_1.png',
                         ],
                         description: 'electronicLocksDescription',
                     }
@@ -102,35 +89,23 @@ const DefaultConstants = {
                 products: [
                     {
                         name: 'Cofre eletrônico 1',
+                        wallpaper: 'assets/images/products/electronicSafes/1.png',
                         images: [
                             'assets/images/products/electronicSafes/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
                         name: 'Cofre eletrônico 2',
+                        wallpaper: 'assets/images/products/electronicSafes/2.png',
                         images: [
                             'assets/images/products/electronicSafes/2.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
                         ],
                         description: 'electronicSafesDescription',
                     }, {
                         name: 'Cofre eletrônico 3',
+                        wallpaper: 'assets/images/products/electronicSafes/3.png',
                         images: [
                             'assets/images/products/electronicSafes/3.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
                         ],
                         description: 'electronicSafesDescription',
                     }
@@ -143,46 +118,30 @@ const DefaultConstants = {
                 products: [
                     {
                         name: 'Acessório 1',
+                        wallpaper: 'assets/images/products/accessories/1.png',
                         images: [
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
                             'assets/images/products/accessories/1.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
                         name: 'Acessório 2',
+                        wallpaper: 'assets/images/products/accessories/2.png',
                         images: [
                             'assets/images/products/accessories/2.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
                         name: 'Acessório 3',
+                        wallpaper: 'assets/images/products/accessories/3.png',
                         images: [
                             'assets/images/products/accessories/3.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
                         name: 'Acessório 4',
+                        wallpaper: 'assets/images/products/accessories/4.png',
                         images: [
                             'assets/images/products/accessories/4.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png',
-                            'assets/images/products/accessories/1.png'
                         ],
                         description: 'accessoriesDescription',
                     }

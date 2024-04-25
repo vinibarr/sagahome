@@ -42,7 +42,7 @@ const Products = (props) => {
                                 {
                                     item.products.map((p, index2) => {
                                         return <Box className='product-item' key={index2} onClick={() => setSelectedProduct(p)}>
-                                            <Box className='product-item-image' sx={{ backgroundImage: `url(${p.images[0]})` }} />
+                                            <Box className='product-item-image' sx={{ backgroundImage: `url(${p.wallpaper})` }} />
                                             <Typography className='product-item-name'>
                                                 {translate(p.name)}
                                             </Typography>
