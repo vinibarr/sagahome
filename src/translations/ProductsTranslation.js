@@ -19,6 +19,24 @@ const ProductsTranslation = {
         es_es: ``
     },
 
+    accessory1: {
+        pt_br: `Batedor de porta`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    accessory2: {
+        pt_br: `Fecho de segurança`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    accessory3: {
+        pt_br: `Olho mágico`,
+        en_us: ``,
+        es_es: ``
+    },
+
     electronicLocks: {
         pt_br: `Fechaduras eletrônicas`,
         en_us: ``,
@@ -65,6 +83,18 @@ const ProductsTranslation = {
         pt_br: `As fechaduras eletrônicas residenciais da Saga Systems representam uma revolução na maneira como protegemos nossas casas. Desenvolvidas com a mais alta tecnologia, essas fechaduras oferecem não apenas segurança reforçada, mas também uma conveniência sem precedentes para os usuários. O uso de sistemas avançados de reconhecimento, como digitais, códigos numéricos ou até mesmo reconhecimento facial, elimina a necessidade de chaves físicas, reduzindo significativamente o risco de perda ou roubo de chaves.
             <br>Além da segurança, as fechaduras eletrônicas da Saga Systems estão equipadas com funcionalidades que facilitam o dia a dia. Por exemplo, muitos modelos permitem o controle remoto via aplicativos de smartphone, possibilitando que os proprietários abram ou fechem suas portas à distância. Isso é particularmente útil em situações onde é necessário conceder acesso temporário a visitantes ou prestadores de serviço, sem comprometer a segurança permanente da residência.
             <br>Outro ponto forte das fechaduras eletrônicas Saga Systems é a sua integração com sistemas de automação residencial. Isso permite que sejam configuradas em conjunto com outros dispositivos inteligentes da casa, como câmeras de segurança e alarmes, criando um ecossistema de segurança robusto e inteligente. A instalação dessas fechaduras é geralmente simples e pode ser realizada sem grandes reformas, tornando-as uma opção viável e atraente para melhorar a segurança residencial.`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    electronicSafe1: {
+        pt_br: `Classic Laptop`,
+        en_us: ``,
+        es_es: ``
+    },
+
+    electronicSafe2: {
+        pt_br: `Swift`,
         en_us: ``,
         es_es: ``
     },

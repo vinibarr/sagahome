@@ -106,24 +106,20 @@ const DefaultConstants = {
                 aboutDescription: 'electronicSafesAboutDescription',
                 products: [
                     {
-                        name: 'Cofre eletrônico 1',
+                        name: 'electronicSafe1',
                         wallpaper: 'assets/images/products/electronicSafes/1.png',
                         images: [
-                            'assets/images/products/electronicSafes/1.png',
+                            'assets/images/products/electronicSafes/1_1.png',
+                            'assets/images/products/electronicSafes/1_2.png',
+                            'assets/images/products/electronicSafes/1_3.png',
+                            'assets/images/products/electronicSafes/1_4.png',
                         ],
                         description: 'electronicSafesDescription',
                     }, {
-                        name: 'Cofre eletrônico 2',
+                        name: 'electronicSafe2',
                         wallpaper: 'assets/images/products/electronicSafes/2.png',
                         images: [
-                            'assets/images/products/electronicSafes/2.png',
-                        ],
-                        description: 'electronicSafesDescription',
-                    }, {
-                        name: 'Cofre eletrônico 3',
-                        wallpaper: 'assets/images/products/electronicSafes/3.png',
-                        images: [
-                            'assets/images/products/electronicSafes/3.png',
+                            'assets/images/products/electronicSafes/2_1.png',
                         ],
                         description: 'electronicSafesDescription',
                     }
@@ -135,31 +131,24 @@ const DefaultConstants = {
                 aboutDescription: 'accessoriesAboutDescription',
                 products: [
                     {
-                        name: 'Acessório 1',
+                        name: 'accessory1',
                         wallpaper: 'assets/images/products/accessories/1.png',
                         images: [
-                            'assets/images/products/accessories/1.png'
+                            'assets/images/products/accessories/1_1.png'
                         ],
                         description: 'accessoriesDescription',
                     }, {
-                        name: 'Acessório 2',
+                        name: 'accessory2',
                         wallpaper: 'assets/images/products/accessories/2.png',
                         images: [
-                            'assets/images/products/accessories/2.png',
+                            'assets/images/products/accessories/2_1.png',
                         ],
                         description: 'accessoriesDescription',
                     }, {
-                        name: 'Acessório 3',
+                        name: 'accessory3',
                         wallpaper: 'assets/images/products/accessories/3.png',
                         images: [
-                            'assets/images/products/accessories/3.png',
-                        ],
-                        description: 'accessoriesDescription',
-                    }, {
-                        name: 'Acessório 4',
-                        wallpaper: 'assets/images/products/accessories/4.png',
-                        images: [
-                            'assets/images/products/accessories/4.png',
+                            'assets/images/products/accessories/3_1.png',
                         ],
                         description: 'accessoriesDescription',
                     }
