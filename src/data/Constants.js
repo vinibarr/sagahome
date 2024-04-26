@@ -168,11 +168,9 @@ const DefaultConstants = {
         subtitle: 'contactDescription',
         wallpaper: 'assets/images/contact/wallpaper.png',
         subjects: [
-            'Assunto 1',
-            'Assunto 2',
-            'Assunto 3',
-            'Assunto 4',
-            'Assunto 5'
+            'Informações',
+            'Vendas',
+            'Assistência técnica'
         ]
     },
     socialMedias: [
