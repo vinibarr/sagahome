@@ -120,6 +120,8 @@ const DefaultConstants = {
                         wallpaper: 'assets/images/products/electronicSafes/2.png',
                         images: [
                             'assets/images/products/electronicSafes/2_1.png',
+                            'assets/images/products/electronicSafes/2_2.png',
+                            'assets/images/products/electronicSafes/2_3.png',
                         ],
                         description: 'electronicSafesDescription',
                     }
