@@ -150,18 +150,21 @@ const DefaultConstants = {
                                 'assets/images/products/electronicLocks/4_2.png',
                                 'assets/images/products/electronicLocks/4_3_pt.png',
                                 'assets/images/products/electronicLocks/4_4_pt.png',
+                                'assets/images/products/electronicLocks/4_5_pt.png',
                             ],
                             en_us: [
                                 'assets/images/products/electronicLocks/4_1.png',
                                 'assets/images/products/electronicLocks/4_2.png',
                                 'assets/images/products/electronicLocks/4_3_en.png',
                                 'assets/images/products/electronicLocks/4_4_en.png',
+                                'assets/images/products/electronicLocks/4_5_en.png',
                             ],
                             es_es: [
                                 'assets/images/products/electronicLocks/4_1.png',
                                 'assets/images/products/electronicLocks/4_2.png',
                                 'assets/images/products/electronicLocks/4_3_es.png',
                                 'assets/images/products/electronicLocks/4_4_es.png',
+                                'assets/images/products/electronicLocks/4_5_es.png',
                             ]
                         },
                         description: 'electronicLocksDescription',
@@ -174,18 +177,21 @@ const DefaultConstants = {
                                 'assets/images/products/electronicLocks/5_2.png',
                                 'assets/images/products/electronicLocks/5_3_pt.png',
                                 'assets/images/products/electronicLocks/5_4_pt.png',
+                                'assets/images/products/electronicLocks/5_5_pt.png',
                             ],
                             en_us: [
                                 'assets/images/products/electronicLocks/5_1.png',
                                 'assets/images/products/electronicLocks/5_2.png',
                                 'assets/images/products/electronicLocks/5_3_en.png',
                                 'assets/images/products/electronicLocks/5_4_en.png',
+                                'assets/images/products/electronicLocks/5_5_en.png',
                             ],
                             es_es: [
                                 'assets/images/products/electronicLocks/5_1.png',
                                 'assets/images/products/electronicLocks/5_2.png',
                                 'assets/images/products/electronicLocks/5_3_es.png',
                                 'assets/images/products/electronicLocks/5_4_es.png',
+                                'assets/images/products/electronicLocks/5_5_es.png',
                             ]
                         },
                         description: 'electronicLocksDescription',
