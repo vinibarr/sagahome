@@ -66,6 +66,12 @@ const DefaultTranslation = {
         es_es: "Información"
     },
 
+    informations: {
+        pt_br: "Informações",
+        en_us: "Informations",
+        es_es: "Informaciónes"
+    },
+
     message: {
         pt_br: "Mensagem",
         en_us: "Message",
@@ -114,6 +120,12 @@ const DefaultTranslation = {
         es_es: "Lea mas"
     },
 
+    sales: {
+        pt_br: "Vendas",
+        en_us: "Sales",
+        es_es: "Ventas"
+    },
+
     send: {
         pt_br: "Enviar",
         en_us: "Send",
@@ -136,6 +148,12 @@ const DefaultTranslation = {
         pt_br: "Assunto",
         en_us: "Subject",
         es_es: "Asunto"
+    },
+
+    technicalAssistance: {
+        pt_br: "Assistência técnica",
+        en_us: "Technical assistance",
+        es_es: "Asistencia técnica"
     },
 
     timeLimitExceeded: {

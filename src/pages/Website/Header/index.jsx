@@ -12,7 +12,7 @@ import DocumentHelper from '../../../helpers/DocumentHelper';
 
 
 const Header = () => {
-    const { translate } = useLanguageContext();
+    const { translate, currentLanguage } = useLanguageContext();
     
     const [navLinkSelected, setNavLinkSelected] = useState('/');
     const [informationsActived, setInformationsActived] = useState(false);
@@ -124,7 +124,7 @@ const Header = () => {
 
                                     <Box className='information-item-values'>
                                         <Typography variant='body2' className='information-item-value disabled-hover'>
-                                            {DefaultConstants.address.street}
+                                            {DefaultConstants.address.street[currentLanguage.value]}
                                         </Typography>
                                         
                                         <Typography variant='body2' className='information-item-value disabled-hover'>

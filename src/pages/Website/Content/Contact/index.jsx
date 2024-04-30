@@ -12,7 +12,7 @@ import ContactService from '../../../../services/ContactService';
 
 const Contact = (props) => {
     const { showLoading, hideLoading } = useLoadingContext();
-    const { translate } = useLanguageContext();
+    const { translate, currentLanguage } = useLanguageContext();
     const { showAlertMessage } = useAlertMessageContext();
 
     const [form, setForm] = useState({
@@ -110,7 +110,7 @@ const Contact = (props) => {
                             <LocationOn className='contact-item-icon' />
 
                             <Typography variant='body2' className='contact-item-text disabled-hover'>
-                                {DefaultConstants.address.street}
+                                {DefaultConstants.address.street[currentLanguage.value]}
                             </Typography>
                                         
                             <Typography variant='body2' className='contact-item-text disabled-hover'>

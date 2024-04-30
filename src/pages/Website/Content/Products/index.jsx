@@ -7,7 +7,7 @@ import Slider from '../../../../components/Slider';
 
 
 const Products = (props) => {
-    const { translate } = useLanguageContext();
+    const { translate, currentLanguage } = useLanguageContext();
 
     const [selectedProduct, setSelectedProduct] = useState(undefined); 
 
@@ -60,7 +60,7 @@ const Products = (props) => {
             open={selectedProduct !== undefined}
             handleClose={() => setSelectedProduct(undefined)}
             title={selectedProduct ? translate(selectedProduct.name) : undefined}
-            items={selectedProduct ? selectedProduct.images : []}
+            items={selectedProduct ? selectedProduct.images[currentLanguage.value] : []}
         />
     </>;
 }
