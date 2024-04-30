@@ -8,11 +8,13 @@ import Route from '../../router';
 import NavBarLinks from '../../data/NavBar';
 import LanguagesDialog from './LanguagesDialog';
 import { useLanguageContext } from '../../contexts/LanguageContext';
+import { history } from '../../router/BrowserHistory';
+import DocumentHelper from '../../helpers/DocumentHelper';
 
 
 const Website = () => {
     const { hideLoading } = useLoadingContext();
-    const { currentLanguage } = useLanguageContext();
+    const { translate, currentLanguage } = useLanguageContext();
 
     const [languageDialogOpen, setLanguageDialogOpen] = useState(false);
 
@@ -21,6 +23,14 @@ const Website = () => {
         hideLoading();
         // eslint-disable-next-line
     }, []);
+
+    useEffect(() => {
+        const link = NavBarLinks.find(n => n.path === history.location.pathname);
+        if (link !== undefined) {
+            DocumentHelper.setDocumentTitle(translate(link.name))
+        }
+        // eslint-disable-next-line
+    }, [history.location.pathname, currentLanguage]);
 
     return (
         <>

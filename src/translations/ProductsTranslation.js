@@ -35,8 +35,8 @@ const ProductsTranslation = {
 
     accessory3: {
         pt_br: `Olho mágico`,
-        en_us: `Magic eye`,
-        es_es: `Ojo mágico`
+        en_us: `Door viewer peephole`,
+        es_es: `Mirilla`
     },
 
     electronicLocks: {
