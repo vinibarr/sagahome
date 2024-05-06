@@ -11,6 +11,7 @@
 
 	// Entities
 	require_once 'entities/Contact.php';
+	require_once 'entities/Health.php';
 
 
 	Rest::Open($_REQUEST);

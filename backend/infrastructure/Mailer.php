@@ -2,14 +2,14 @@
 
     //ENVIO DE EMAILS PADRONIZADOS
     class Mailer {
-        private $sender_name = 'xxxxx@xxxx.com';
-        private $sender_email = 'xxxxx@xxxx.com';
-        private $sender_password = 'xxxxxxx';
+        private $sender_name = 'Saga Home';
+        private $sender_email = 'no-reply@sagahome.com.br';
+        private $sender_password = 'wVY56]E&7eeD';
         
-        private $host_security = 'TLS';
+        private $host_security = 'SSL';
         private $host_protocol = 'SMTP';
-        private $host_server = 'smtp-mail.outlook.com';
-        private $host_port = '587';
+        private $host_server = 'mail.sagahome.com.br';
+        private $host_port = '465';
         
         private $recipient = null;
         

@@ -197,7 +197,7 @@ const Contact = (props) => {
                                 {
                                     DefaultConstants.contact.subjects.map((subject, index) => {
                                         return (
-                                            <MenuItem key={index} value={subject}>
+                                            <MenuItem key={index} value={translate(subject, 'pt_br')}>
                                                 {translate(subject)}
                                             </MenuItem>
                                         )
