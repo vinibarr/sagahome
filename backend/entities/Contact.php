@@ -10,7 +10,7 @@
 
 
 		public function SendMail() {
-			$recipient = 'reginaldo_savian@hotmail.com';
+			$recipient = 'contato@sagahome.com.br';
 
 			$subject = StringHelper::Set("Formulário de Contato - {$this->_post['subject']}")->RemoveAccent()->Get();
 
