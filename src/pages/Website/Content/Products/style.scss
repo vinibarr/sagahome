@@ -27,7 +27,7 @@
         .products-list {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: stretch;
             width: 100%;
             flex-wrap: wrap;
             column-gap: 40px;
@@ -39,6 +39,8 @@
                 border-radius: $component-default-border-radius;
                 box-shadow: $component-default-box-shadow;
                 cursor: pointer;
+                display: flex;
+                flex-direction: column;
 
                 .product-item-image {
                     border-radius: $component-default-border-radius;
@@ -66,9 +68,14 @@
                     display: block;
                     padding: 20px 12px;
                     font-size: 20px;
+                    line-height: 22px;
                     color: $component-text-default-color-1;
-                    text-align: center;
                     transition: 0.2s;
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
                 }
 
                 &:hover {

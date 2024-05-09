@@ -22,9 +22,9 @@ const ProductsTranslation = {
     },
 
     accessory1: {
-        pt_br: `Batedor de porta`,
-        en_us: `Door knocker`,
-        es_es: `Llamador de la puerta`
+        pt_br: `Prendedor de porta`,
+        en_us: `Door stopper`,
+        es_es: `Topes para puertas`
     },
 
     accessory2: {
